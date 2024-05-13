@@ -1,0 +1,38 @@
+/*
+You will style your page using at least 10 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+html,
+body {
+    font-size: 12pt;
+    text-align: center;
+}
+
+header {
+    font-size: 20pt;
+}
+
+footer {
+    padding: 2px;
+    font-size: 14pt;
+}
+
+.prime {
+    color: #00ff00;
+}
+
+.not-prime {
+    color: #ff0000;
+}
+
+.error {
+    color: #ff0000;
+}
+
+label {
+    font-size: 12pt;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+}

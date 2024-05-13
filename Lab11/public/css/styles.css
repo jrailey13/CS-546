@@ -1,0 +1,67 @@
+/*
+You must include 10 CSS rules that aply to your application
+*/
+
+html,
+h1 {
+    text-align: center;
+    font-size: 48pt;
+}
+
+footer {
+    font-size: 12pt;
+    bottom: 0;
+}
+
+ul {
+    text-align: center;
+    display: inline-block;
+    font-size: 16pt;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+div {
+    text-align: center;
+    margin-top: 4px;
+}
+
+a {
+    font-size: 12pt;
+    text-align: center;
+}
+
+form {
+    font-size: 16pt;
+    position: absolute;
+    top: 24px;
+    right: 12px;
+}
+
+dl {
+    font-size: 16pt;
+    list-style-type: none;
+}
+
+li {
+    font-size: 16pt;
+    padding-bottom: 4px;
+}
+
+label {
+    display: block;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+}
+
+p {
+    margin-top: 0;
+}
+
+#error {
+    color: red;
+}

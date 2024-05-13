@@ -1,0 +1,19 @@
+{
+  "name": "cs-546-lab-8",
+  "version": "1.0.0",
+  "description": "Lab 8 for CS 546",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "app.js"
+  },
+  "author": "Jameson Railey 20020463",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "blueimp-md5": "^2.19.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "md5": "^2.3.0"
+  }
+}

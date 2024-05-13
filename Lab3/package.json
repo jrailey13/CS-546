@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "Lab 3 for CS 546",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jameson Railey 20020463",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}

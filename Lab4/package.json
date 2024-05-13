@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Lab 4 for CS 546",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jameson Railey 20020463",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "moment": "^2.29.4",
+    "mongodb": "^6.1.0"
+  }
+}

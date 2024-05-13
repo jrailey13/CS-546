@@ -1,0 +1,30 @@
+{{!--
+
+login form handlebar template
+
+--}}
+
+<main>
+    <h1 class="title">Login</h1>
+    <p>Please fill in your username and password to login! If you don't have an account, you can click the link below to register.</p>
+    <form action='/login' method="post" id="login-form">
+        <label for="emailAddressInput">Enter email</label>
+        <input name="emailAddressInput" id="emailAddressInput" type="email">
+        <br>
+        <label for="passwordInput">Enter password</label>
+        <input name="passwordInput" id="passwordInput" type="password">
+        <br>
+        <input type="submit">
+        <div id="login-error" class="login-error" hidden>
+            <p id="jquery-error" class="jquery-error"></p>
+        </div>
+    </form>
+    <div id="error" class="error">
+        <p class="error-message">{{error}}</p>
+    </div>
+</main>
+<footer>
+    <a href="/register">Click here to register!</a>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="../public/js/client_side_validation.js"></script>

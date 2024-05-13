@@ -1,0 +1,52 @@
+/*This file should have 10 CSS rulesets */
+html,
+body {
+    font-size: 12pt;
+    background: #dedede;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+.not-found {
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14pt;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 12pt;
+    padding-top: 6px;
+}
+
+.error-title {
+    color: #ff0000;
+    font-size: 24pt;
+    text-decoration: underline;
+}
+
+.description {
+    border-bottom: 1px solid #000000;
+    width: 75%;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.return {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+.character-list li {
+    padding: 2px
+}
+
+.comic-list li {
+    padding: 2px
+}
+

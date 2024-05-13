@@ -1,0 +1,55 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+<main>
+    <h1 class="title">Register</h1>
+    <p>Fill in the information below to register. Thank you for joining our site!</p>
+
+    <form action='/register' method="post" id="registration-form">
+        <label for="firstNameInput">First Name</label>
+        <input type="text" name="firstNameInput" id="firstNameInput">
+        <br>
+
+        <label for="lastNameInput">Last Name</label>
+        <input type="text" name="lastNameInput" id="lastNameInput">
+        <br>
+
+        <label for="emailAddressInput">Email Address</label>
+        <input type="email" name="emailAddressInput" id="emailAddressInput">
+        <br>
+
+        <label for="passwordInput">Password</label>
+        <input type="password" name="passwordInput" id="passwordInput">
+        <br>
+
+        <label for="confirmPasswordInput">Confirm Password</label>
+        <input type="password" name="confirmPasswordInput" id="confirmPasswordInput">
+        <br>
+
+        <label for="roleInput">Role</label>
+        <select name="roleInput" id="roleInput">
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+        </select>
+        <br>
+
+        <input type="submit">
+        <br>
+
+        <div id="registration-error" class="registration-error" hidden>
+            <p id="jquery-error" class="jquery-error"></p>
+        </div>
+    </form>
+    <div id="error" class="error">
+        <p class="error">{{error}}</p>
+    </div>
+</main>
+<footer>
+    <a href="/login">Already have an account? Click here to login!</a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="../public/js/client_side_validation.js"></script>

@@ -1,0 +1,18 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "Lab 9 for CS 546",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "app.js"
+  },
+  "author": "Jameson Railey 20020463",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "is-palindrome": "^0.3.0",
+    "just-is-prime": "^2.3.0"
+  }
+}

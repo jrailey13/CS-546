@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "Lab 2 for CS 546 - Web Programming",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Jameson Railey 20020463",
+  "license": "ISC"
+}

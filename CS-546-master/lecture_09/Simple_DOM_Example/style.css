@@ -1,0 +1,9 @@
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.inputClass {
+	border: 3px solid red;
+	background-color: #eee;
+}
